@@ -7,6 +7,14 @@ Implementation of Sliding Window(SW) network to Strided Kernel(SK) caffe .protot
 #### Detailed description about command line arguments has also been provided in sk_transform.py file header.
 #### Customized initial input size for SK-Net can be provided as an optional argument to excution command (see command line description).
 
+### Requirements:
+
+        Attached modified Caffe protobuf layer definitions (https://github.com/BVLC/caffe/blob/master/src/caffe/proto/caffe.proto)
+        
+        Google protobug package (https://github.com/google/protobuf)
+        
+        ProtoText package (PyPI) (https://github.com/XericZephyr/prototext)
+
 ### Commands:
 
     Default Command:
